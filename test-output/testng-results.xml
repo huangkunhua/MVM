@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36984" started-at="2018-06-14T18:13:18Z" finished-at="2018-06-14T18:13:55Z">
+  <suite name="Default suite" duration-ms="102531" started-at="2018-06-20T01:35:21Z" finished-at="2018-06-20T01:37:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36984" started-at="2018-06-14T18:13:18Z" finished-at="2018-06-14T18:13:55Z">
+    <test name="Default test" duration-ms="102531" started-at="2018-06-20T01:35:21Z" finished-at="2018-06-20T01:37:04Z">
       <class name="testcase.JxhdYw">
-        <test-method status="PASS" signature="login()[pri:0, instance:testcase.JxhdYw@47f15427]" name="login" duration-ms="5395" started-at="2018-06-15T02:13:18Z" finished-at="2018-06-15T02:13:23Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:testcase.JxhdYw@39b65439]" name="login" duration-ms="4496" started-at="2018-06-20T09:36:30Z" finished-at="2018-06-20T09:36:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="AddHuo()[pri:0, instance:testcase.JxhdYw@47f15427]" name="AddHuo" duration-ms="29456" started-at="2018-06-15T02:13:23Z" depends-on-methods="testcase.JxhdYw.login" finished-at="2018-06-15T02:13:53Z">
+        <test-method status="PASS" signature="AddHuo()[pri:0, instance:testcase.JxhdYw@39b65439]" name="AddHuo" duration-ms="27874" started-at="2018-06-20T09:36:34Z" depends-on-methods="testcase.JxhdYw.login" finished-at="2018-06-20T09:37:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddHuo -->
-        <test-method status="PASS" signature="logOut()[pri:0, instance:testcase.JxhdYw@47f15427]" name="logOut" duration-ms="2104" started-at="2018-06-15T02:13:53Z" depends-on-methods="testcase.JxhdYw.AddHuo" finished-at="2018-06-15T02:13:55Z">
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testcase.JxhdYw@39b65439]" name="logOut" duration-ms="1786" started-at="2018-06-20T09:37:02Z" depends-on-methods="testcase.JxhdYw.AddHuo" finished-at="2018-06-20T09:37:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOut -->
       </class> <!-- testcase.JxhdYw -->
+      <class name="uuuu.jiaoXueTestng">
+        <test-method status="PASS" signature="login()[pri:0, instance:uuuu.jiaoXueTestng@715387c8]" name="login" duration-ms="8256" started-at="2018-06-20T09:35:21Z" finished-at="2018-06-20T09:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="AddHuo()[pri:0, instance:uuuu.jiaoXueTestng@715387c8]" name="AddHuo" duration-ms="25476" started-at="2018-06-20T09:35:30Z" depends-on-methods="uuuu.jiaoXueTestng.login" finished-at="2018-06-20T09:35:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddHuo -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:uuuu.jiaoXueTestng@715387c8]" name="logOut" duration-ms="2246" started-at="2018-06-20T09:35:55Z" depends-on-methods="uuuu.jiaoXueTestng.AddHuo" finished-at="2018-06-20T09:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- uuuu.jiaoXueTestng -->
+      <class name="testcase.JxhdYn">
+        <test-method status="PASS" signature="login()[pri:0, instance:testcase.JxhdYn@56e746d4]" name="login" duration-ms="4379" started-at="2018-06-20T09:35:57Z" finished-at="2018-06-20T09:36:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="AddHuo()[pri:0, instance:testcase.JxhdYn@56e746d4]" name="AddHuo" duration-ms="25059" started-at="2018-06-20T09:36:02Z" depends-on-methods="testcase.JxhdYn.login" finished-at="2018-06-20T09:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddHuo -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testcase.JxhdYn@56e746d4]" name="logOut" duration-ms="2918" started-at="2018-06-20T09:36:27Z" depends-on-methods="testcase.JxhdYn.AddHuo" finished-at="2018-06-20T09:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- testcase.JxhdYn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

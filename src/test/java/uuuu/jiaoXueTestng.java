@@ -30,7 +30,7 @@ public class jiaoXueTestng {
 		//医院管理员testyiyuan
 		//driver.get("https://newlztest.mvwchina.com/pc/manage/index.html?token=bce9f4a746d244ebb8f10fd869ef1e28");
 		//住培2.0新建管理员用户
-		driver.get("https://ccgme-cttms.oss-cn-beijing.aliyuncs.com/pc/manage/index.html?token=baa959e6bf434e66a482edd5df601a57");
+		driver.get("http://mvw-testing.oss-cn-beijing.aliyuncs.com/cttms-ui_v4.1/pc/manage/index.html?token=f575333e62b940fd9fa8e2edeebb523c");
 		
 	}
 	@Test(dependsOnMethods="login")
